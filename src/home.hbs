@@ -13,7 +13,7 @@
 
     {{!-- Asset management system. --}}
     <a-assets>
-        <a-asset-item id="scenario" src="assets/castle/scene.gltf"></a-asset-item>
+        <a-asset-item id="scenario" src="{{ asset "models/ground/ground.gltf" }}"></a-asset-item>
         <img id="pyramid" src="{{ asset "img/portal/altar_small.jpg" }}">
         <img id="pyramid" src="{{ asset "img/portal/climb_small.jpg" }}">
         <img id="pyramid" src="{{ asset "img/portal/internal_field_small.jpg" }}">
@@ -31,7 +31,9 @@
     </a-assets>
 
     {{!-- Nav Mesh --}}
-    {{!-- <a-entity ground gltf-model="{{ asset "navmesh.gltf" }}" nav-mesh visible="false"></a-entity> --}}
+    <a-entity ground gltf-model="{{ asset "models/ground/navmesh.gltf" }}" nav-mesh visible="false"></a-entity>
+
+    <a-light color="white" position="-1 1 0" intensity="3"></a-light>
 
     {{!-- Scene. --}}
     <a-entity id="cameraRig">
@@ -47,11 +49,8 @@
     {{!-- Main scenario --}}
     {{!-- <a-entity gltf-model="#scenario" position="7 -13 0"></a-entity> --}}
 
-    <a-entity id="enviro" position="0 -.001 0" environment="
-    preset: forest">
-    </a-entity>
-    <!-- ground collider keeps objets from falling -->
-    <a-box static-body width=100 height=0.001 depth=100 visible="false"></a-box>
+    {{!-- Main scenario --}}
+    <a-entity gltf-model="#scenario" position="200 -10 -100"></a-entity>
 
     {{!-- Portals --}}
     {{> portal id="pyramid-portal"

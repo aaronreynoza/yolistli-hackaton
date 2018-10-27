@@ -56,7 +56,6 @@
     "@fortawesome/fontawesome-free": "^5.4.2",
     "aframe": "^0.8.2",
     "aframe-animation-component": "^5.1.2",
-    "aframe-environment-component": "^1.1.0",
     "aframe-event-set-component": "^4.1.2",
     "aframe-extras": "^4.2.0",
     "aframe-inspector": "^0.8.3",
