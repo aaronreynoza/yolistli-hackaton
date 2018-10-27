@@ -1,0 +1,9 @@
+<a-mixin id="hoverAnimation"
+         animation="property: object3D.position.y; from: 1.6; to: 1.8; dir: alternate; loop: true; dur: 5000; easing: easeInOutCubic; pauseEvents: touched"></a-mixin>
+
+<a-mixin id="slice" slice9="color: #050505; src: #sliceImg; left: 50; right: 52; top: 50; bottom: 52; padding: 0.04"></a-mixin>
+
+<a-mixin id="portal" look-at="#head" geometry="primitive: circle; segments: 64"
+         material="shader: yoPortal; backgroundColor: #333; transparent: true"
+         animation__mouseenterscale="property: scale; from: 1 1 1; to: 1.1 1.1 1.1; easing: easeInOutQuad; dir: alternate; loop: true; startEvents: mouseenter; dur: 1000; pauseEvents: mouseleave"
+></a-mixin>

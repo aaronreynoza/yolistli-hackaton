@@ -1,0 +1,11 @@
+<!-- SECOND HAND: Primary hand. -->
+<a-entity id="left-hand" mixin="hand" teleport-controls="startEvents: trackpaddown, triggerdown; endEvents: trackpadup, triggerup"
+          vive-controls="hand: left" oculus-touch-controls="hand: left" microsoft-motion-controls="hand: left"
+          daydream-controls="hand: left" visible="false">
+</a-entity>
+
+<!-- RIGHT HAND: Primary hand. -->
+<a-entity id="right-hand" mixin="hand" teleport-controls="startEvents: trackpaddown, triggerdown; endEvents: trackpadup, triggerup"
+          vive-controls="hand: right" microsoft-motion-controls="hand: right" oculus-touch-controls="hand: right"
+          daydream-controls="hand: right" visible="false">
+</a-entity>

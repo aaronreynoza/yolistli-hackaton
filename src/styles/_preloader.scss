@@ -1,0 +1,56 @@
+// Spinkit settings
+$spinkit-spinner-margin: 0 auto;
+$spinkit-size: 200px;
+$spinkit-spinner-color: #242226;
+
+.preloader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #E6E6E6;
+    background: #443f47;
+    background: radial-gradient(circle at center, #443f47 0, #242226 100%);
+
+    > * {
+        user-select: none; /* Standard syntax */
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+.preloader-inner {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.progress-label {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.preloader-logo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto 10px auto;
+}
+
+.sk-spinner {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

@@ -1,0 +1,58 @@
+.action-button {
+    display: block;
+    position: absolute;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    bottom: 0;
+    left: 60px;
+    z-index: 300;
+
+    &.animate {
+        transition: all 0.1s;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+
+    &.yolistli {
+        background-color: #e81f41;
+        border-bottom: 5px solid #6d1121;
+        text-shadow: 0 -2px #611421;
+    }
+
+    &.blue {
+        background-color: #3498DB;
+        border-bottom: 5px solid #2980B9;
+        text-shadow: 0 -2px #2980B9;
+    }
+
+    &.red {
+        background-color: #E74C3C;
+        border-bottom: 5px solid #BD3E31;
+        text-shadow: 0 -2px #BD3E31;
+    }
+
+    &.green {
+        background-color: #82BF56;
+        border-bottom: 5px solid #669644;
+        text-shadow: 0 -2px #669644;
+    }
+
+    &.yellow {
+        background-color: #F2CF66;
+        border-bottom: 5px solid #D1B358;
+        text-shadow: 0 -2px #D1B358;
+    }
+
+    &:active {
+        transform: translate(0, 5px);
+        border-bottom: 1px solid #6d1121;
+    }
+}
+

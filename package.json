@@ -1,0 +1,85 @@
+{
+  "name": "yolistli",
+  "version": "1.0.0",
+  "description": "A project for Cihuatan.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --mode production --progress",
+    "dev": "./node_modules/.bin/webpack-dev-server --host 127.0.0.1 --port 8000 --mode development --progress",
+    "deploy": "./node_modules/.bin/webpack --mode production --progress && firebase deploy"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "webvr",
+    "aframe",
+    "firebase",
+    "webpack"
+  ],
+  "author": "Yolistli",
+  "license": "MIT",
+  "homepage": "https://github.com/wdiazux",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "autoprefixer": "^9.3.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.4",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.1.7",
+    "eslint": "^5.7.0",
+    "file-loader": "^2.0.0",
+    "handlebars": "^4.0.12",
+    "handlebars-loader": "^1.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.9.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss": "^7.0.5",
+    "postcss-loader": "^3.0.0",
+    "precss": "^3.1.2",
+    "sass-loader": "^7.1.0",
+    "semistandard": "^12.0.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-glsl-loader": "^1.0.1",
+    "webpack-merge": "^4.1.4",
+    "workbox-webpack-plugin": "^3.6.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.2",
+    "aframe": "^0.8.2",
+    "aframe-animation-component": "^5.1.2",
+    "aframe-event-set-component": "^4.1.2",
+    "aframe-extras": "^4.2.0",
+    "aframe-inspector": "^0.8.3",
+    "aframe-layout-component": "^5.3.0",
+    "aframe-look-at-component": "^0.7.0",
+    "aframe-simple-sun-sky": "^1.2.0",
+    "aframe-slice9-component": "^1.0.0",
+    "aframe-teleport-controls": "github:wdiazux/aframe-teleport-controls#opt",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "npm": "^6.4.1",
+    "popper.js": "^1.14.4",
+    "roboto-fontface": "^0.10.0",
+    "spinkit": "^1.2.5",
+    "typeface-pacifico": "0.0.54"
+  },
+  "semistandard": {
+    "globals": [
+      "AFRAME",
+      "THREE",
+      "$"
+    ],
+    "ignore": [
+      "build/**"
+    ]
+  }
+}
