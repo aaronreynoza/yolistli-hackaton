@@ -2,6 +2,7 @@
 require('aframe');
 require('aframe-animation-component');
 require('aframe-event-set-component');
+require('aframe-environment-component');
 require('aframe-layout-component');
 require('aframe-simple-sun-sky');
 require('aframe-look-at-component');

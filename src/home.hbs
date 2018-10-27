@@ -14,7 +14,13 @@
     {{!-- Asset management system. --}}
     <a-assets>
         <a-asset-item id="scenario" src="assets/castle/scene.gltf"></a-asset-item>
-        <img id="pyramid" src="{{ asset "piramide.jpg" }}">
+        <img id="pyramid" src="{{ asset "img/portal/altar_small.jpg" }}">
+        <img id="pyramid" src="{{ asset "img/portal/climb_small.jpg" }}">
+        <img id="pyramid" src="{{ asset "img/portal/internal_field_small.jpg" }}">
+        <img id="pyramid" src="{{ asset "img/portal/museum_small.jpg" }}">
+        <img id="pyramid" src="{{ asset "img/portal/outside_field1_small.jpg" }}">
+        <img id="pyramid" src="{{ asset "img/portal/outside_field2_small.jpg" }}">
+        <img id="pyramid" src="{{ asset "img/portal/pyramid_small.jpg" }}">
         <img id="portalImg" src="{{ asset "img/portal.png" }}">
         <img id="shadowImg" src="{{ asset "img/shadow.png" }}">
         <img id="sliceImg" src="{{ asset "img/slice.png" }}">
@@ -25,7 +31,7 @@
     </a-assets>
 
     {{!-- Nav Mesh --}}
-    <a-entity ground gltf-model="{{ asset "navmesh.gltf" }}" nav-mesh visible="false"></a-entity>
+    {{!-- <a-entity ground gltf-model="{{ asset "navmesh.gltf" }}" nav-mesh visible="false"></a-entity> --}}
 
     {{!-- Scene. --}}
     <a-entity id="cameraRig">
@@ -39,18 +45,55 @@
     </a-entity>
 
     {{!-- Main scenario --}}
-    <a-entity gltf-model="#scenario" position="7 -13 0"></a-entity>
+    {{!-- <a-entity gltf-model="#scenario" position="7 -13 0"></a-entity> --}}
 
-    {{!-- Sky --}}
-    <a-simple-sun-sky sun-position="-5 8 3"></a-simple-sun-sky>
+    <a-entity id="enviro" position="0 -.001 0" environment="
+    preset: forest">
+    </a-entity>
+    <!-- ground collider keeps objets from falling -->
+    <a-box static-body width=100 height=0.001 depth=100 visible="false"></a-box>
 
     {{!-- Portals --}}
     {{> portal id="pyramid-portal"
         href="portals/pyramid.html"
-        img="assets/img/portal/piramide.jpg"
+        img="assets/img/portal/pyramid_small.jpg"
         name="Piramide"
-        position="-9 0 -4" }}
+        position="-9 0 3" }}
 
-    <div id="asset" src="{{ asset "img/portal.png" }}"></div>
+    {{> portal id="altar-portal"
+        href="portals/altar.html"
+        img="assets/img/portal/altar_small.jpg"
+        name="Altar"
+        position="-6 0 -2" }}
+
+    {{> portal id="climb-portal"
+        href="portals/climb.html"
+        img="assets/img/portal/climb_small.jpg"
+        name="Ascenso"
+        position="-2 0 -6" }}
+
+    {{> portal id="internal-field-portal"
+        href="portals/internal-field.html"
+        img="assets/img/portal/internal_field_small.jpg"
+        name="Campo Interno"
+        position="-5 0 -5" }}
+
+    {{> portal id="museum-portal"
+        href="portals/museum.html"
+        img="assets/img/portal/museum_small.jpg"
+        name="Museo"
+        position="5 0 0" }}
+
+    {{> portal id="outside-field1-portal"
+        href="portals/outside-field1.html"
+        img="assets/img/portal/outside_field1_small.jpg"
+        name="Cancha Afuera"
+        position="-2 0 -12" }}
+
+    {{> portal id="outside-field2-portal"
+        href="portals/outside-field2.html"
+        img="assets/img/portal/outside_field2_small.jpg"
+        name="Cancha Afuera"
+        position="-7 0 3" }}
 
 </a-scene>

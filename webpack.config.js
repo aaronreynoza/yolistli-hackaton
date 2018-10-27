@@ -172,6 +172,48 @@ const config = {
             filename: path.join(__dirname, 'build', 'portals', 'pyramid.html'),
             inject: 'head'
         }),
+        new HtmlWebpackPlugin({
+            title: "Yolistli - Altar",
+            // the template you want to use
+            template: path.join(__dirname, 'src', 'portals', 'altar.hbs'),
+            filename: path.join(__dirname, 'build', 'portals', 'altar.html'),
+            inject: 'head'
+        }),
+        new HtmlWebpackPlugin({
+            title: "Yolistli - Ascension",
+            // the template you want to use
+            template: path.join(__dirname, 'src', 'portals', 'climb.hbs'),
+            filename: path.join(__dirname, 'build', 'portals', 'climb.html'),
+            inject: 'head'
+        }),
+        new HtmlWebpackPlugin({
+            title: "Yolistli - Campo Interior",
+            // the template you want to use
+            template: path.join(__dirname, 'src', 'portals', 'internal-field.hbs'),
+            filename: path.join(__dirname, 'build', 'portals', 'internal-field.html'),
+            inject: 'head'
+        }),
+        new HtmlWebpackPlugin({
+            title: "Yolistli - Campo Exterior",
+            // the template you want to use
+            template: path.join(__dirname, 'src', 'portals', 'outside-field1.hbs'),
+            filename: path.join(__dirname, 'build', 'portals', 'outside-field1.html'),
+            inject: 'head'
+        }),
+        new HtmlWebpackPlugin({
+            title: "Yolistli - Campo Exterior",
+            // the template you want to use
+            template: path.join(__dirname, 'src', 'portals', 'outside-field2.hbs'),
+            filename: path.join(__dirname, 'build', 'portals', 'outside-field2.html'),
+            inject: 'head'
+        }),
+        new HtmlWebpackPlugin({
+            title: "Yolistli - Museo",
+            // the template you want to use
+            template: path.join(__dirname, 'src', 'portals', 'museum.hbs'),
+            filename: path.join(__dirname, 'build', 'portals', 'museum.html'),
+            inject: 'head'
+        }),
         new MiniCssExtractPlugin({
             filename: 'styles/[name].css',
             chunkFilename: 'styles/[id].css',
