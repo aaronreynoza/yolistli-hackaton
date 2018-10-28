@@ -3,9 +3,9 @@
         {
             "bufferView" : 0,
             "componentType" : 5123,
-            "count" : 744,
+            "count" : 1104,
             "max" : [
-                399
+                527
             ],
             "min" : [
                 0
@@ -15,7 +15,7 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 400,
+            "count" : 528,
             "max" : [
                 221.046630859375,
                 234.2590789794922,
@@ -31,11 +31,11 @@
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 400,
+            "count" : 528,
             "max" : [
                 1.0,
                 1.0,
-                0.21994689106941223
+                1.0
             ],
             "min" : [
                 -1.0,
@@ -47,7 +47,7 @@
         {
             "bufferView" : 3,
             "componentType" : 5126,
-            "count" : 400,
+            "count" : 528,
             "max" : [
                 1.0,
                 1.0,
@@ -65,7 +65,7 @@
         {
             "bufferView" : 4,
             "componentType" : 5126,
-            "count" : 400,
+            "count" : 528,
             "max" : [
                 0.9930989742279053,
                 0.9947460000403225
@@ -84,49 +84,49 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 1488,
+            "byteLength" : 2208,
             "byteOffset" : 0,
             "target" : 34963
         },
         {
             "buffer" : 0,
-            "byteLength" : 4800,
-            "byteOffset" : 1488,
+            "byteLength" : 6336,
+            "byteOffset" : 2208,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 4800,
-            "byteOffset" : 6288,
+            "byteLength" : 6336,
+            "byteOffset" : 8544,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 6400,
-            "byteOffset" : 11088,
+            "byteLength" : 8448,
+            "byteOffset" : 14880,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 3200,
-            "byteOffset" : 17488,
+            "byteLength" : 4224,
+            "byteOffset" : 23328,
             "target" : 34962
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 20688,
+            "byteLength" : 27552,
             "uri" : "ranchito.bin"
         }
     ],
     "images" : [
         {
-            "name" : "Ranchito_1001_Normal",
-            "uri" : "Ranchito_1001_Normal.jpg"
-        },
-        {
             "name" : "Ranchito_1001_Roughness",
             "uri" : "Ranchito_1001_Roughness.jpg"
+        },
+        {
+            "name" : "Ranchito_1001_Normal",
+            "uri" : "Ranchito_1001_Normal.jpg"
         },
         {
             "name" : "Ranchito_1001_BaseColor",
@@ -137,14 +137,14 @@
         {
             "name" : "Ranchito.001",
             "normalTexture" : {
+                "index" : 1
+            },
+            "occlusionTexture" : {
                 "index" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 2
-                },
-                "metallicRoughnessTexture" : {
-                    "index" : 1
                 }
             }
         }
