@@ -97,14 +97,17 @@
     </a-entity>
     <a-entity gltf-model="#ranchito" emissive="white" position="84 14.148 -24.468" scale="0.085 0.04 0.085"></a-entity>
 
-    {{!-- Arbolitos --}}
+    {{!-- Mensajes --}}
+    <a-entity rotation="0 45 0" id="pyramid-text" mixin="slice" slice9="color:  #111; height: 0.55; width: 3.2; opacity: 0.7"
+        text="color: #ffffff; align: center; value:la pirámide principal de Cihuatan, mide 13 metros de altura y 50 metros de base; side: double; width: 3; zOffset: 0.01"
+        position="-222.485 -10.831 -168.512"></a-entity>
 
     {{!-- Portals --}}
     {{> portal id="pyramid-portal"
     href="portals/pyramid.html"
     img="assets/img/portal/pyramid_small.jpg"
     name="Piramide"
-    position="-240 0 -163.606" }}
+    position="-225 -10 -163.606" }}
 
     {{> portal id="altar-portal"
     href="portals/altar.html"
@@ -134,12 +137,12 @@
     href="portals/outside-field1.html"
     img="assets/img/portal/outside_field1_small.jpg"
     name="Cancha fuera"
-    position="-315 -6 14" }}
+    position="-300 -4 14" }}
 
     {{> portal id="outside-field2-portal"
     href="portals/outside-field2.html"
     img="assets/img/portal/outside_field2_small.jpg"
     name="Cancha Afuera"
-    position="-315 -6 19" }}
+    position="-300 -4 19" }}
 
 </a-scene>
