@@ -6,7 +6,7 @@ AFRAME.registerComponent('star-system', {
         },
         radius: {
             type: 'number',
-            default: 300,
+            default: 600,
             min: 0
         },
         depth: {
