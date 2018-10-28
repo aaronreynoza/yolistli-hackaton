@@ -1,0 +1,185 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 28689,
+            "max" : [
+                8359
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 8360,
+            "max" : [
+                1605.4530029296875,
+                599.346923828125,
+                3.207642078399658
+            ],
+            "min" : [
+                -1546.12353515625,
+                -582.1334228515625,
+                -133.09657287597656
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 8360,
+            "max" : [
+                0.9949339032173157,
+                0.999908447265625,
+                0.9955137968063354
+            ],
+            "min" : [
+                -0.9951781034469604,
+                -0.9990233778953552,
+                -0.999969482421875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 8360,
+            "max" : [
+                0.9996947050094604,
+                0.9981536269187927,
+                0.9976993799209595,
+                1.0
+            ],
+            "min" : [
+                -0.9998367428779602,
+                -0.9895594120025635,
+                -0.9979821443557739,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 8360,
+            "max" : [
+                0.9948729872703552,
+                0.9954340001568198
+            ],
+            "min" : [
+                0.0030849999748170376,
+                0.0023270249366760254
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 57378,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 100320,
+            "byteOffset" : 57380,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 100320,
+            "byteOffset" : 157700,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 133760,
+            "byteOffset" : 258020,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 66880,
+            "byteOffset" : 391780,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 458660,
+            "uri" : "cancha.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "Juego de Pelota Norte_A",
+            "uri" : "Juego de Pelota Norte_A.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "canchapelota",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cancha_JuegoPelota_Model.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cancha_JuegoPelota_Model.002",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ]
+}

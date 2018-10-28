@@ -10,6 +10,7 @@
 
     {{!-- Asset management system. --}}
     <a-assets>
+        <a-asset-item id="cancha" src="{{ asset "models/objetos/cancha.gltf" }}"></a-asset-item>
         <a-asset-item id="scenario" src="{{ asset "models/ground/ground.gltf" }}"></a-asset-item>
         <a-asset-item id="chuchito" src="{{ asset "models/objetos/chuchito.gltf" }}"></a-asset-item>
         <a-asset-item id="craneo" src="{{ asset "models/objetos/craneo.gltf" }}"></a-asset-item>
@@ -54,7 +55,7 @@
         {{> teleport-controls }}
     </a-entity>
 
-    <a-sky color="black"></a-sky>
+    <a-sky color="#0e1111"></a-sky>
     <a-entity star-system>
         <a-animation attribute="rotation" easing="linear" dur="250000" to="360 360 0" repeat="indefinite"></a-animation>
     </a-entity>
@@ -65,25 +66,28 @@
     {{!-- Walkable objects --}}
     <a-entity gltf-model="#piramide" position="-275.849 -13.777 -163.606" scale="0.1 0.1 0.1" rotate="0 90 0"></a-entity>
 
-    {{!-- Touchable Objects --}}
-    <a-sphere color="yellow" radius="5" emissive="white" position="0 150 0" scale="2 2 2"></a-sphere>
-    <a-entity gltf-model="#chuchito" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#craneo" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
+    {{!-- Museum objects! --}}
+    <a-entity gltf-model="#mascara" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#mascaracraneo" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#mazapan" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#chuchito" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#craneo" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#jaguar" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
+    {{!--  Objects --}}
+    <a-sphere radius="5" emissive="white" position="0 150 0" scale="2 2 2"></a-sphere>
+    <a-entity gltf-model="#cancha" position="-464 -14.3 14" scale="0.1 0.1 0.1"></a-entity>
+    <a-entity gltf-model="#cancha" position="46.766 -14.609 -641.964" rotation="0 90 0" scale="0.1 0.1 0.1"></a-entity>
     <a-entity gltf-model="#incenierario" position="74.793 14.597 23.782" scale="0.05 0.05 0.05"></a-entity>
-    <a-entity gltf-model="#jaguar" position="4.793 25 23.782" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#maniqui" position="-275.740 25.553 -163.154" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#mascara" position="4.793 30 23.782" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#mascaracraneo" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#mazapan" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#pistadeBaile" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#PolicromoBanderas" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#PistadeBaile" position="27.745 -16.195 -289.920" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#PolicromoBanderas" position="90.960 14 -2" rotate="90 90 0" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#puntaflecha" position="90.960 14.655 -2" scale="0.2 0.2 0.2">
         <a-animation attribute="rotation"
                dur="3000"
                to="0 360 0"
                repeat="indefinite"></a-animation>
     </a-entity>
-    <a-entity gltf-model="#ranchito" emissive="white" position="90.960 14.655 -25.840" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#ranchito" emissive="white" position="84 14.148 -24.468" scale="0.085 0.04 0.085"></a-entity>
 
     {{!-- Portals --}}
     {{> portal id="pyramid-portal"
@@ -96,36 +100,36 @@
     href="portals/altar.html"
     img="assets/img/portal/altar_small.jpg"
     name="Altar"
-    position="85 20 0" }}
+    position="86 16 6" }}
 
     {{> portal id="climb-portal"
     href="portals/climb.html"
     img="assets/img/portal/climb_small.jpg"
     name="Ascenso"
-    position="-2 0 -6" }}
+    position="27.745 -8 -289.920" }}
 
     {{> portal id="internal-field-portal"
     href="portals/internal-field.html"
     img="assets/img/portal/internal_field_small.jpg"
     name="Campo Interno"
-    position="-5 0 -5" }}
+    position="52.702 -3.129 -475.117" }}
 
     {{> portal id="museum-portal"
     href="portals/museum.html"
     img="assets/img/portal/museum_small.jpg"
     name="Museo"
-    position="5 0 0" }}
+    position="207.735 0 -289.920" }}
 
     {{> portal id="outside-field1-portal"
     href="portals/outside-field1.html"
     img="assets/img/portal/outside_field1_small.jpg"
-    name="Cancha Afuera"
-    position="-2 0 -12" }}
+    name="Cancha fuera"
+    position="-329 -6 14" }}
 
     {{> portal id="outside-field2-portal"
     href="portals/outside-field2.html"
     img="assets/img/portal/outside_field2_small.jpg"
     name="Cancha Afuera"
-    position="-7 0 3" }}
+    position="-329 -6 19" }}
 
 </a-scene>
