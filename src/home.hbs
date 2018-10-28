@@ -10,6 +10,8 @@
 
     {{!-- Asset management system. --}}
     <a-assets>
+        <a-asset-item id="fan" src="{{ asset "models/museo/fan.gltf" }}"></a-asset-item>
+        <a-asset-item id="museo" src="{{ asset "models/museo/Museum.gltf" }}"></a-asset-item>
         <a-asset-item id="cancha" src="{{ asset "models/objetos/cancha.gltf" }}"></a-asset-item>
         <a-asset-item id="scenario" src="{{ asset "models/ground/ground.gltf" }}"></a-asset-item>
         <a-asset-item id="chuchito" src="{{ asset "models/objetos/chuchito.gltf" }}"></a-asset-item>
@@ -70,12 +72,21 @@
     <a-entity gltf-model="#PistadeBaile" ground position="27.745 -16.195 -289.920" scale="0.085 0.04 0.085"></a-entity>
 
     {{!-- Museum objects! --}}
-    <a-entity gltf-model="#mascara" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#mascaracraneo" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#mazapan" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#chuchito" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#craneo" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#jaguar" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#museo" position="125.426 -8.653 -143.146" rotation="0 270 0" scale="1.5 1.5 1.5"></a-entity>
+    <a-entity gltf-model="#mascara" position="139 -8.881 -140.187" rotation="0 270.000 0" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#mascaracraneo" position="126.425 -8.653 -138.078" rotation="0 180 0" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#mazapan" position="126.425 -8.653 -143.078" scale="0.085 0.04 0.085">
+        <a-animation attribute="rotation" dur="3000" to="0 360 0" repeat="indefinite"></a-animation>
+    </a-entity>
+    <a-entity gltf-model="#chuchito" position="134.699 -8.881 -146.954" rotation="0 90 0" scale="0.05 0.05 0.05">
+        <a-animation attribute="rotation" dur="3000" to="0 450 0" repeat="indefinite"></a-animation>
+    </a-entity>
+    <a-entity gltf-model="#craneo" position="138.910 -8.881 -147.542" rotation="0 270 0" scale="0.085 0.04 0.085">
+        <a-animation attribute="rotation" dur="3000" to="0 -90 0" repeat="indefinite"></a-animation>
+    </a-entity>
+    <a-entity gltf-model="#jaguar" position="131.728 -8.828 -143.286" scale="0.02 0.02 0.02">
+        <a-animation attribute="rotation" dur="3000" to="0 360 0" repeat="indefinite"></a-animation>
+    </a-entity>
     {{!-- Objects --}}
     <a-sphere radius="5" emissive="white" position="0 150 0" scale="2 2 2"></a-sphere>
     <a-entity gltf-model="#incenierario" position="74.793 14.597 23.782" scale="0.05 0.05 0.05"></a-entity>
