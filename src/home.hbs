@@ -2,7 +2,7 @@
 
 {{> preloader }}
 
-<a-scene stats renderer="antialias: false;
+<a-scene renderer="antialias: false;
              gammaOutput: true;
              sortObjects: true;
              physicallyCorrectLights: true"
@@ -24,13 +24,13 @@
         <a-asset-item id="puntaflecha" src="{{ asset "models/objetos/puntaflecha.gltf" }}"></a-asset-item>
         <a-asset-item id="ranchito" src="{{ asset "models/objetos/ranchito.gltf" }}"></a-asset-item>
         <a-asset-item id="piramide" src="{{ asset "models/objetos/piramide.gltf" }}"></a-asset-item>
-        <img id="pyramid" src="{{ asset "img/portal/altar_small.jpg" }}">
-        <img id="pyramid" src="{{ asset "img/portal/climb_small.jpg" }}">
-        <img id="pyramid" src="{{ asset "img/portal/internal_field_small.jpg" }}">
-        <img id="pyramid" src="{{ asset "img/portal/museum_small.jpg" }}">
-        <img id="pyramid" src="{{ asset "img/portal/outside_field1_small.jpg" }}">
-        <img id="pyramid" src="{{ asset "img/portal/outside_field2_small.jpg" }}">
-        <img id="pyramid" src="{{ asset "img/portal/pyramid_small.jpg" }}">
+        <img id="altar_small" src="{{ asset "img/portal/altar_small.jpg" }}">
+        <img id="climb_small" src="{{ asset "img/portal/climb_small.jpg" }}">
+        <img id="internal_field_small" src="{{ asset "img/portal/internal_field_small.jpg" }}">
+        <img id="museum_small" src="{{ asset "img/portal/museum_small.jpg" }}">
+        <img id="outside_field1_small" src="{{ asset "img/portal/outside_field1_small.jpg" }}">
+        <img id="outside_field2_small" src="{{ asset "img/portal/outside_field2_small.jpg" }}">
+        <img id="pyramid_small" src="{{ asset "img/portal/pyramid_small.jpg" }}">
         <img id="portalImg" src="{{ asset "img/portal.png" }}">
         <img id="shadowImg" src="{{ asset "img/shadow.png" }}">
         <img id="sliceImg" src="{{ asset "img/slice.png" }}">
@@ -54,8 +54,7 @@
         {{> teleport-controls }}
     </a-entity>
 
-    <a-sky color="black">
-    </a-sky>
+    <a-sky color="black"></a-sky>
     <a-entity star-system>
         <a-animation attribute="rotation" easing="linear" dur="250000" to="360 360 0" repeat="indefinite"></a-animation>
     </a-entity>
@@ -86,7 +85,7 @@
     href="portals/pyramid.html"
     img="assets/img/portal/pyramid_small.jpg"
     name="Piramide"
-    position="0 0 0" }}
+    position="-240 0 -163.606" }}
 
     {{> portal id="altar-portal"
     href="portals/altar.html"
