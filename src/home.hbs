@@ -77,8 +77,13 @@
     <a-entity gltf-model="#mazapan" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#pistadeBaile" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#PolicromoBanderas" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#puntaflecha" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#ranchito" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#puntaflecha" position="90.960 14.655 -2" scale="0.2 0.2 0.2">
+        <a-animation attribute="rotation"
+               dur="3000"
+               to="0 360 0"
+               repeat="indefinite"></a-animation>
+    </a-entity>
+    <a-entity gltf-model="#ranchito" emissive="white" position="90.960 14.655 -25.840" scale="0.085 0.04 0.085"></a-entity>
 
     {{!-- Portals --}}
     {{> portal id="pyramid-portal"
@@ -91,7 +96,7 @@
     href="portals/altar.html"
     img="assets/img/portal/altar_small.jpg"
     name="Altar"
-    position="-6 0 -2" }}
+    position="90.960 14.655 -2" }}
 
     {{> portal id="climb-portal"
     href="portals/climb.html"
