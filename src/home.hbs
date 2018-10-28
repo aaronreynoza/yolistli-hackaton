@@ -40,7 +40,7 @@
         {{> portal-mixins}}
     </a-assets>
 
-    <a-light color="white" position="-1 1 0" intensity="3"></a-light>
+    <a-light color="white" position="-1 30 0" intensity="1.4"></a-light>
 
     {{!-- Scene. --}}
     <a-entity id="cameraRig">
@@ -54,21 +54,25 @@
         {{> teleport-controls }}
     </a-entity>
 
-    {{!-- Main scenario --}}
-    {{!-- <a-entity gltf-model="#scenario" position="7 -13 0"></a-entity> --}}
+    <a-sky color="black">
+    </a-sky>
+    <a-entity star-system>
+        <a-animation attribute="rotation" easing="linear" dur="250000" to="360 360 0" repeat="indefinite"></a-animation>
+    </a-entity>
 
     {{!-- Main scenario --}}
     <a-entity ground gltf-model="#scenario" position="200 -10 -100"></a-entity>
 
     {{!-- Walkable objects --}}
-    <a-entity gltf-model="#piramide" position="133.175 14.755 68.779" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#piramide" position="-275.849 -13.777 -163.606" scale="0.1 0.1 0.1" rotate="0 90 0"></a-entity>
 
     {{!-- Touchable Objects --}}
+    <a-sphere color="yellow" radius="5" emissive="white" position="0 150 0" scale="2 2 2"></a-sphere>
     <a-entity gltf-model="#chuchito" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#craneo" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#incenierario" position="74.793 14.597 23.782" scale="0.05 0.05 0.05"></a-entity>
     <a-entity gltf-model="#jaguar" position="4.793 25 23.782" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#maniqui" position="134.068 31.003 69.091" scale="0.085 0.04 0.085"></a-entity>
+    <a-entity gltf-model="#maniqui" position="-275.740 25.553 -163.154" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#mascara" position="4.793 30 23.782" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#mascaracraneo" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#mazapan" position="0 30 0" scale="0.085 0.04 0.085"></a-entity>
@@ -82,42 +86,42 @@
     href="portals/pyramid.html"
     img="assets/img/portal/pyramid_small.jpg"
     name="Piramide"
-    position="87.129 19.347 46.382" }}
+    position="0 0 0" }}
 
     {{> portal id="altar-portal"
     href="portals/altar.html"
     img="assets/img/portal/altar_small.jpg"
     name="Altar"
-    position="-6 2 -2" }}
+    position="-6 0 -2" }}
 
     {{> portal id="climb-portal"
     href="portals/climb.html"
     img="assets/img/portal/climb_small.jpg"
     name="Ascenso"
-    position="-2 2 -6" }}
+    position="-2 0 -6" }}
 
     {{> portal id="internal-field-portal"
     href="portals/internal-field.html"
     img="assets/img/portal/internal_field_small.jpg"
     name="Campo Interno"
-    position="-5 2 -5" }}
+    position="-5 0 -5" }}
 
     {{> portal id="museum-portal"
     href="portals/museum.html"
     img="assets/img/portal/museum_small.jpg"
     name="Museo"
-    position="5 2 0" }}
+    position="5 0 0" }}
 
     {{> portal id="outside-field1-portal"
     href="portals/outside-field1.html"
     img="assets/img/portal/outside_field1_small.jpg"
     name="Cancha Afuera"
-    position="-2 2 -12" }}
+    position="-2 0 -12" }}
 
     {{> portal id="outside-field2-portal"
     href="portals/outside-field2.html"
     img="assets/img/portal/outside_field2_small.jpg"
     name="Cancha Afuera"
-    position="-7 2 3" }}
+    position="-7 0 3" }}
 
 </a-scene>
