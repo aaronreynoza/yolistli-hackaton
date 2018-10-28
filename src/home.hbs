@@ -64,7 +64,10 @@
     <a-entity ground gltf-model="#scenario" position="200 -10 -100"></a-entity>
 
     {{!-- Walkable objects --}}
-    <a-entity gltf-model="#piramide" position="-275.849 -13.777 -163.606" scale="0.1 0.1 0.1" rotate="0 90 0"></a-entity>
+    <a-entity gltf-model="#piramide" ground position="-275.849 -13.777 -163.606" scale="0.1 0.1 0.1" rotate="0 90 0"></a-entity>
+    <a-entity gltf-model="#cancha" ground position="-464 -14.3 14" scale="0.1 0.1 0.1"></a-entity>
+    <a-entity gltf-model="#cancha" ground position="46.766 -14.609 -641.964" rotation="0 90 0" scale="0.1 0.1 0.1"></a-entity>
+    <a-entity gltf-model="#PistadeBaile" ground position="27.745 -16.195 -289.920" scale="0.085 0.04 0.085"></a-entity>
 
     {{!-- Museum objects! --}}
     <a-entity gltf-model="#mascara" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
@@ -75,11 +78,8 @@
     <a-entity gltf-model="#jaguar" visible="false" position="-100 0 0" scale="0.085 0.04 0.085"></a-entity>
     {{!-- Objects --}}
     <a-sphere radius="5" emissive="white" position="0 150 0" scale="2 2 2"></a-sphere>
-    <a-entity gltf-model="#cancha" position="-464 -14.3 14" scale="0.1 0.1 0.1"></a-entity>
-    <a-entity gltf-model="#cancha" position="46.766 -14.609 -641.964" rotation="0 90 0" scale="0.1 0.1 0.1"></a-entity>
     <a-entity gltf-model="#incenierario" position="74.793 14.597 23.782" scale="0.05 0.05 0.05"></a-entity>
     <a-entity gltf-model="#maniqui" position="-275.740 25.553 -163.154" scale="0.085 0.04 0.085"></a-entity>
-    <a-entity gltf-model="#PistadeBaile" position="27.745 -16.195 -289.920" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#PolicromoBanderas" position="90.960 14 -2" rotate="90 90 0" scale="0.085 0.04 0.085"></a-entity>
     <a-entity gltf-model="#puntaflecha" position="90.960 14.655 -2" scale="0.2 0.2 0.2">
         <a-animation attribute="rotation" dur="3000" to="0 360 0" repeat="indefinite"></a-animation>
