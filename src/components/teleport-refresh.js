@@ -18,10 +18,10 @@ AFRAME.registerComponent('teleport-refresh', {
                 if (window.performance) {
                     var perfEntries = performance.getEntriesByType('navigation')[0];
                     if (perfEntries.type !== 'reload') {
-                        cameraRig.object3D.position.set(homePosition.x, portalPosition.y - 1.6, homePosition.z);
+                        cameraRig.object3D.position.set(homePosition.x, homePosition.y + 1.7, homePosition.z);
                     }
                 } else {
-                    cameraRig.object3D.position.set(homePosition.x, portalPosition.y - 1.6, homePosition.z);
+                    cameraRig.object3D.position.set(homePosition.x, homePosition.y + 1.7, homePosition.z);
                 }
             }
         }
