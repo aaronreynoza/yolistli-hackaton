@@ -1,0 +1,207 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 744,
+            "max" : [
+                399
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 400,
+            "max" : [
+                221.046630859375,
+                234.2590789794922,
+                10.02479362487793
+            ],
+            "min" : [
+                -221.046630859375,
+                -234.2590789794922,
+                -444.083984375
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 400,
+            "max" : [
+                1.0,
+                1.0,
+                0.21994689106941223
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 400,
+            "max" : [
+                1.0,
+                1.0,
+                0.9907686710357666,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 400,
+            "max" : [
+                0.9930989742279053,
+                0.9947460000403225
+            ],
+            "min" : [
+                0.01820800080895424,
+                0.007619976997375488
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1488,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4800,
+            "byteOffset" : 1488,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4800,
+            "byteOffset" : 6288,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6400,
+            "byteOffset" : 11088,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3200,
+            "byteOffset" : 17488,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 20688,
+            "uri" : "ranchito.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "Ranchito_1001_Normal",
+            "uri" : "Ranchito_1001_Normal.jpg"
+        },
+        {
+            "name" : "Ranchito_1001_Roughness",
+            "uri" : "Ranchito_1001_Roughness.jpg"
+        },
+        {
+            "name" : "Ranchito_1001_BaseColor",
+            "uri" : "Ranchito_1001_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Ranchito.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Ranchito",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Ranchito",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}

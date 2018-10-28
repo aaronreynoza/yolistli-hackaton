@@ -1,0 +1,118 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 3297,
+            "max" : [
+                2202
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2203,
+            "max" : [
+                848.81982421875,
+                624.08447265625,
+                11.196111679077148
+            ],
+            "min" : [
+                -866.26025390625,
+                -630.59326171875,
+                -25.01885414123535
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2203,
+            "max" : [
+                0.21437394618988037,
+                0.20758195221424103,
+                -0.9229313135147095
+            ],
+            "min" : [
+                -0.2439180165529251,
+                -0.37763160467147827,
+                -0.9999985098838806
+            ],
+            "type" : "VEC3"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 6594,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26436,
+            "byteOffset" : 6596,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26436,
+            "byteOffset" : 33032,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 59468,
+            "uri" : "ground_collider.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "ZBrush_defualt_group",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "ZBrush_defualt_group",
+            "rotation" : [
+                0.6984163522720337,
+                0.11052003502845764,
+                -0.11052003502845764,
+                0.6984163522720337
+            ],
+            "translation" : [
+                17.06793212890625,
+                0.0,
+                -34.1358642578125
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

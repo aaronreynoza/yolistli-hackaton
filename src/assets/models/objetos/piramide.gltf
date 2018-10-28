@@ -1,0 +1,212 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 5052,
+            "max" : [
+                2543
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2544,
+            "max" : [
+                1053.81494140625,
+                1074.455322265625,
+                0.6640729904174805
+            ],
+            "min" : [
+                -1053.81494140625,
+                -1074.455322265625,
+                -1053.3309326171875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2544,
+            "max" : [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2544,
+            "max" : [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2544,
+            "max" : [
+                0.9966109991073608,
+                0.9946070001460612
+            ],
+            "min" : [
+                0.006748999934643507,
+                0.006703972816467285
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 10104,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30528,
+            "byteOffset" : 10104,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30528,
+            "byteOffset" : 40632,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 40704,
+            "byteOffset" : 71160,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20352,
+            "byteOffset" : 111864,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 132216,
+            "uri" : "piramide.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "Piramide_1001_Normal",
+            "uri" : "Piramide_1001_Normal.jpg"
+        },
+        {
+            "name" : "Piramide_1001_Roughness",
+            "uri" : "Piramide_1001_Roughness.jpg"
+        },
+        {
+            "name" : "Piramide_1001_BaseColor",
+            "uri" : "Piramide_1001_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "piramide",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Piramide",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Piramide",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.385536789894104,
+                0.385536789894104,
+                0.385536789894104
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}

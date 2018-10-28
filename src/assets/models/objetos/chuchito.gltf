@@ -1,0 +1,207 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 9261,
+            "max" : [
+                3410
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3411,
+            "max" : [
+                9.242774963378906,
+                16.6860294342041,
+                -0.03445199877023697
+            ],
+            "min" : [
+                -8.50694465637207,
+                -20.80291175842285,
+                -34.327911376953125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3411,
+            "max" : [
+                0.999969482421875,
+                0.9989013075828552,
+                0.9998779296875
+            ],
+            "min" : [
+                -0.999847412109375,
+                -0.9987487196922302,
+                -0.9989623427391052
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 3411,
+            "max" : [
+                0.9999480843544006,
+                0.9999639391899109,
+                0.9999709129333496,
+                1.0
+            ],
+            "min" : [
+                -0.9999931454658508,
+                -0.99977046251297,
+                -0.9993320107460022,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 3411,
+            "max" : [
+                0.9982889890670776,
+                0.999971999999616
+            ],
+            "min" : [
+                0.0,
+                0.0006499886512756348
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 18522,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 40932,
+            "byteOffset" : 18524,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 40932,
+            "byteOffset" : 59456,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 54576,
+            "byteOffset" : 100388,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27288,
+            "byteOffset" : 154964,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 182252,
+            "uri" : "chuchito.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "chuchito (4)_Chuchito_Normal",
+            "uri" : "chuchito (4)_Chuchito_Normal.jpg"
+        },
+        {
+            "name" : "chuchito (4)_Chuchito_OcclusionRoughnessMetallic",
+            "uri" : "chuchito (4)_Chuchito_OcclusionRoughnessMetallic.jpg"
+        },
+        {
+            "name" : "chuchito (4)_Chuchito_BaseColor",
+            "uri" : "chuchito (4)_Chuchito_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Material",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Chuchito_chuchito",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Chuchito_chuchito",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}

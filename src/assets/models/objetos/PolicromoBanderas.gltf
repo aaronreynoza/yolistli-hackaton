@@ -1,0 +1,207 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 3264,
+            "max" : [
+                577
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 578,
+            "max" : [
+                13.747204780578613,
+                13.980225563049316,
+                2.81489896774292
+            ],
+            "min" : [
+                -13.933989524841309,
+                -14.58614730834961,
+                -0.3512119948863983
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 578,
+            "max" : [
+                0.9551072716712952,
+                0.9533371925354004,
+                0.999969482421875
+            ],
+            "min" : [
+                -0.9543748497962952,
+                -0.9521164298057556,
+                -1.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 578,
+            "max" : [
+                0.9999697804450989,
+                0.6194729208946228,
+                0.9555646181106567,
+                1.0
+            ],
+            "min" : [
+                -0.2970486879348755,
+                -0.8481884598731995,
+                -0.9548286199569702,
+                1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 578,
+            "max" : [
+                0.9659519791603088,
+                0.959757998585701
+            ],
+            "min" : [
+                0.1367499977350235,
+                0.11032700538635254
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 6528,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6936,
+            "byteOffset" : 6528,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6936,
+            "byteOffset" : 13464,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9248,
+            "byteOffset" : 20400,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4624,
+            "byteOffset" : 29648,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 34272,
+            "uri" : "PolicromoBanderas.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "Policromo banderas_Normal",
+            "uri" : "Policromo banderas_Normal.jpg"
+        },
+        {
+            "name" : "Policromo banderas_Roughness",
+            "uri" : "Policromo banderas_Roughness.jpg"
+        },
+        {
+            "name" : "Policromo banderas_BaseColor",
+            "uri" : "Policromo banderas_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "PolicromoBanderas.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "PolicromoBanderas",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "PolicromoBanderas",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}

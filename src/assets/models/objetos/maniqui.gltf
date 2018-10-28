@@ -1,0 +1,369 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 2910,
+            "max" : [
+                1739
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1740,
+            "max" : [
+                65.13111877441406,
+                14.005608558654785,
+                -1.5622659921646118
+            ],
+            "min" : [
+                -65.192626953125,
+                -12.268912315368652,
+                -191.05755615234375
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1740,
+            "max" : [
+                1.0,
+                0.9990233778953552,
+                0.9911190867424011
+            ],
+            "min" : [
+                -1.0,
+                -0.9980468153953552,
+                -0.9675588011741638
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1740,
+            "max" : [
+                0.9993723034858704,
+                0.9998415112495422,
+                0.9979261755943298,
+                1.0
+            ],
+            "min" : [
+                -0.9993361234664917,
+                -0.9998836517333984,
+                -0.9955470561981201,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1740,
+            "max" : [
+                1.0,
+                1.0
+            ],
+            "min" : [
+                0.0,
+                0.0
+            ],
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 10554,
+            "max" : [
+                2109
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2110,
+            "max" : [
+                44.59040451049805,
+                27.111459732055664,
+                -12.89511775970459
+            ],
+            "min" : [
+                -44.128395080566406,
+                -19.281530380249023,
+                -161.86534118652344
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 2110,
+            "max" : [
+                0.99957275390625,
+                0.99993896484375,
+                0.7116305828094482
+            ],
+            "min" : [
+                -0.99993896484375,
+                -0.999908447265625,
+                -0.9955443143844604
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 2110,
+            "max" : [
+                0.9999918937683105,
+                0.9999788403511047,
+                0.9567274451255798,
+                1.0
+            ],
+            "min" : [
+                -0.9999075531959534,
+                -0.9998728036880493,
+                -0.998318612575531,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 2110,
+            "max" : [
+                0.9880750179290771,
+                0.993735000025481
+            ],
+            "min" : [
+                0.005377000197768211,
+                0.010263979434967041
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 5820,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20880,
+            "byteOffset" : 5820,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20880,
+            "byteOffset" : 26700,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27840,
+            "byteOffset" : 47580,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13920,
+            "byteOffset" : 75420,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 21108,
+            "byteOffset" : 89340,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25320,
+            "byteOffset" : 110448,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25320,
+            "byteOffset" : 135768,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 33760,
+            "byteOffset" : 161088,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16880,
+            "byteOffset" : 194848,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 211728,
+            "uri" : "maniqui.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "TRAJETIPICO1_1001_OcclusionRoughnessMetallic",
+            "uri" : "TRAJETIPICO1_1001_OcclusionRoughnessMetallic.jpg"
+        },
+        {
+            "name" : "skin_nudes_549404",
+            "uri" : "skin_nudes_549404.png"
+        },
+        {
+            "name" : "TRAJETIPICO1_1001_Normal",
+            "uri" : "TRAJETIPICO1_1001_Normal.jpg"
+        },
+        {
+            "name" : "TRAJETIPICO1_1001_BaseColor",
+            "uri" : "TRAJETIPICO1_1001_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "maniqui",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 0
+                }
+            }
+        },
+        {
+            "name" : "traje",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 5
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Maniqui",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "TrajeTipico",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 7,
+                        "POSITION" : 6,
+                        "TANGENT" : 8,
+                        "TEXCOORD_0" : 9
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Maniqui",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "TrajeTipico",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1,
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        }
+    ]
+}

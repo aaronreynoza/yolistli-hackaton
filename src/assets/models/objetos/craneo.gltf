@@ -1,0 +1,207 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 8034,
+            "max" : [
+                1526
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1527,
+            "max" : [
+                10.608573913574219,
+                10.492607116699219,
+                -0.10247199982404709
+            ],
+            "min" : [
+                -10.550010681152344,
+                -10.33462142944336,
+                -18.730937957763672
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1527,
+            "max" : [
+                0.9981994032859802,
+                0.9983825087547302,
+                0.9982604384422302
+            ],
+            "min" : [
+                -0.9981994032859802,
+                -0.999114990234375,
+                -0.999053955078125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1527,
+            "max" : [
+                0.9999973773956299,
+                0.9992501735687256,
+                0.9998764991760254,
+                1.0
+            ],
+            "min" : [
+                -0.999931275844574,
+                -0.9966181516647339,
+                -0.9994293451309204,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1527,
+            "max" : [
+                0.9855390191078186,
+                0.9892880003899336
+            ],
+            "min" : [
+                0.01522000040858984,
+                0.016502976417541504
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 16068,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18324,
+            "byteOffset" : 16068,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18324,
+            "byteOffset" : 34392,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24432,
+            "byteOffset" : 52716,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12216,
+            "byteOffset" : 77148,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 89364,
+            "uri" : "craneo.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "chuchito (4)_Chuchito_Normal",
+            "uri" : "chuchito (4)_Chuchito_Normal.jpg"
+        },
+        {
+            "name" : "Craneo_Roughness",
+            "uri" : "Craneo_Roughness.jpg"
+        },
+        {
+            "name" : "Craneo_BaseColor",
+            "uri" : "Craneo_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "craneo",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Craneo",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Craneo",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}

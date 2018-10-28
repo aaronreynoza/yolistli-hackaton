@@ -1,0 +1,182 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 15822,
+            "max" : [
+                2926
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2927,
+            "max" : [
+                26.885957717895508,
+                6.588260173797607,
+                -3.549149990081787
+            ],
+            "min" : [
+                -26.885957717895508,
+                -11.710195541381836,
+                -50.50692367553711
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2927,
+            "max" : [
+                0.999847412109375,
+                1.0,
+                1.0
+            ],
+            "min" : [
+                -0.999847412109375,
+                -0.999969482421875,
+                -0.9998779296875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2927,
+            "max" : [
+                0.9856780171394348,
+                0.9918560003861785
+            ],
+            "min" : [
+                6.0999998822808266e-05,
+                0.006196022033691406
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 31644,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35124,
+            "byteOffset" : 31644,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35124,
+            "byteOffset" : 66768,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23416,
+            "byteOffset" : 101892,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 125308,
+            "uri" : "mascara.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "Mascara_Low_1001_Normal",
+            "uri" : "Mascara_Low_1001_Normal.jpg"
+        },
+        {
+            "name" : "Mascara_Low_1001_Roughness",
+            "uri" : "Mascara_Low_1001_Roughness.jpg"
+        },
+        {
+            "name" : "Mascara_Low_1001_BaseColor",
+            "uri" : "Mascara_Low_1001_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "mascara",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mascara",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Mascara",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 3528,
+            "max" : [
+                664
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 665,
+            "max" : [
+                1.9637479782104492,
+                0.20869499444961548,
+                0.07349800318479538
+            ],
+            "min" : [
+                -1.7421400547027588,
+                -0.22637000679969788,
+                -5.754735946655273
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 665,
+            "max" : [
+                0.9905392527580261,
+                0.999969482421875,
+                0.9968870878219604
+            ],
+            "min" : [
+                -0.9895626902580261,
+                -0.999969482421875,
+                -0.9924619197845459
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 665,
+            "max" : [
+                0.9999572038650513,
+                0.9951778650283813,
+                0.7422977089881897,
+                1.0
+            ],
+            "min" : [
+                -0.45899975299835205,
+                -0.9993136525154114,
+                -0.7592015266418457,
+                1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 665,
+            "max" : [
+                0.9885540008544922,
+                0.9780289996415377
+            ],
+            "min" : [
+                0.015783000737428665,
+                0.0158270001411438
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 7056,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7980,
+            "byteOffset" : 7056,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7980,
+            "byteOffset" : 15036,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10640,
+            "byteOffset" : 23016,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5320,
+            "byteOffset" : 33656,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 38976,
+            "uri" : "puntaflecha.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "Flecha_Low2_1001_Normal",
+            "uri" : "Flecha_Low2_1001_Normal.jpg"
+        },
+        {
+            "name" : "Flecha_Low2_1001_Roughness",
+            "uri" : "Flecha_Low2_1001_Roughness.jpg"
+        },
+        {
+            "name" : "Flecha_Low2_1001_BaseColor",
+            "uri" : "Flecha_Low2_1001_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "flecha.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Flecha",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Flecha",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 34608,
+            "max" : [
+                6261
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 6262,
+            "max" : [
+                8.89385986328125,
+                1.6115070581436157,
+                0.0031709999311715364
+            ],
+            "min" : [
+                -8.178589820861816,
+                -1.1627529859542847,
+                -30.599761962890625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 6262,
+            "max" : [
+                0.999969482421875,
+                1.0,
+                0.99993896484375
+            ],
+            "min" : [
+                -0.999969482421875,
+                -1.0,
+                -0.9998779296875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 6262,
+            "max" : [
+                1.0,
+                0.9999351501464844,
+                0.4360653758049011,
+                1.0
+            ],
+            "min" : [
+                -0.5095438361167908,
+                -0.9999980926513672,
+                -0.8488339781761169,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 6262,
+            "max" : [
+                0.951134979724884,
+                0.8857979997992516
+            ],
+            "min" : [
+                0.07549399882555008,
+                0.1498119831085205
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 69216,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 75144,
+            "byteOffset" : 69216,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 75144,
+            "byteOffset" : 144360,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 100192,
+            "byteOffset" : 219504,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 50096,
+            "byteOffset" : 319696,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 369792,
+            "uri" : "mazapan.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "TablillaMazapan_Normal",
+            "uri" : "TablillaMazapan_Normal.jpg"
+        },
+        {
+            "name" : "TablillaMazapan_Specular",
+            "uri" : "TablillaMazapan_Specular.jpg"
+        },
+        {
+            "name" : "TablillaMazapan_BaseColor",
+            "uri" : "TablillaMazapan_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "mazapan",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "TablillaMazapan",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "TablillaMazapan",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}

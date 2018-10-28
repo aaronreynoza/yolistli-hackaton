@@ -1,0 +1,207 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 1968,
+            "max" : [
+                963
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 964,
+            "max" : [
+                333.7490234375,
+                333.8369445800781,
+                1.8691279888153076
+            ],
+            "min" : [
+                -333.7490234375,
+                -333.8369445800781,
+                -88.20728302001953
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 964,
+            "max" : [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 964,
+            "max" : [
+                1.0,
+                1.0,
+                0.8283044695854187,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -0.8499536514282227,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 964,
+            "max" : [
+                0.9972079992294312,
+                0.9945390000939369
+            ],
+            "min" : [
+                0.009114000014960766,
+                0.006703972816467285
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 3936,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11568,
+            "byteOffset" : 3936,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11568,
+            "byteOffset" : 15504,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15424,
+            "byteOffset" : 27072,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7712,
+            "byteOffset" : 42496,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 50208,
+            "uri" : "PistadeBaile.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "PistaBaile_1001_Normal",
+            "uri" : "PistaBaile_1001_Normal.jpg"
+        },
+        {
+            "name" : "PistaBaile_1001_Roughness",
+            "uri" : "PistaBaile_1001_Roughness.jpg"
+        },
+        {
+            "name" : "PistaBaile_1001_BaseColor",
+            "uri" : "PistaBaile_1001_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "PistadeBaile.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "PistadeBaile",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "PistadeBaile",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 10806,
+            "max" : [
+                1857
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1858,
+            "max" : [
+                11.098121643066406,
+                10.322423934936523,
+                -0.05376100167632103
+            ],
+            "min" : [
+                -11.322964668273926,
+                -1.3042919635772705,
+                -22.07952117919922
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1858,
+            "max" : [
+                0.9881283044815063,
+                0.999664306640625,
+                0.999542236328125
+            ],
+            "min" : [
+                -0.9971007108688354,
+                -0.999298095703125,
+                -0.99993896484375
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1858,
+            "max" : [
+                0.9999526739120483,
+                0.9968190789222717,
+                0.9364770650863647,
+                1.0
+            ],
+            "min" : [
+                -0.9999754428863525,
+                -0.9891402125358582,
+                -0.9551394581794739,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1858,
+            "max" : [
+                0.984254002571106,
+                0.9864919995889068
+            ],
+            "min" : [
+                0.009511999785900116,
+                0.020322024822235107
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 21612,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22296,
+            "byteOffset" : 21612,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22296,
+            "byteOffset" : 43908,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 29728,
+            "byteOffset" : 66204,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14864,
+            "byteOffset" : 95932,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 110796,
+            "uri" : "mascaracraneo.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "Craneo_1001_Normal",
+            "uri" : "Craneo_1001_Normal.jpg"
+        },
+        {
+            "name" : "Craneo_1001_Roughness",
+            "uri" : "Craneo_1001_Roughness.jpg"
+        },
+        {
+            "name" : "Craneo_1001_BaseColor",
+            "uri" : "Craneo_1001_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "mascaracraneo",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "MascaraCraneo",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "MascaraCraneo",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}

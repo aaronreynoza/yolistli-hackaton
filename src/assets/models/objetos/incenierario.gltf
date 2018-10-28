@@ -1,0 +1,182 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 18624,
+            "max" : [
+                5480
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 5481,
+            "max" : [
+                39.55303192138672,
+                39.594905853271484,
+                -0.04656999930739403
+            ],
+            "min" : [
+                -39.55501174926758,
+                -39.653682708740234,
+                -140.0714111328125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 5481,
+            "max" : [
+                0.999725341796875,
+                0.99993896484375,
+                0.999664306640625
+            ],
+            "min" : [
+                -0.999725341796875,
+                -0.999664306640625,
+                -0.999969482421875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 5481,
+            "max" : [
+                0.9958789944648743,
+                0.9983960000099614
+            ],
+            "min" : [
+                0.0016039999900385737,
+                0.0016040205955505371
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 37248,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 65772,
+            "byteOffset" : 37248,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 65772,
+            "byteOffset" : 103020,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 43848,
+            "byteOffset" : 168792,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 212640,
+            "uri" : "incenierario.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "IncienciarioLow_1001_Normal",
+            "uri" : "IncienciarioLow_1001_Normal.jpg"
+        },
+        {
+            "name" : "IncienciarioLow_1001_Height",
+            "uri" : "IncienciarioLow_1001_Height.jpg"
+        },
+        {
+            "name" : "IncienciarioLow_1001_BaseColor",
+            "uri" : "IncienciarioLow_1001_BaseColor.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "incienciario",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Incienciario",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Incienciario",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ]
+}
